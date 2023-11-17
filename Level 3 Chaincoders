@@ -3,7 +3,6 @@ import string
 alphabet = string.ascii_lowercase  # "abcdefghijklmnopqrstuvwxyz"
 
 def decrypt():
-    print("Welcome to Caesar Cipher Decryption.\n")
     with open("level3.txt", 'r') as file:
         encrypted_message = file.read().lower()  # Read the content of the file and convert to lowercase
     print()
